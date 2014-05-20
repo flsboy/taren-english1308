@@ -1,0 +1,417 @@
+com.android.base.BaseComputerAI -> com.android.a.a:
+    java.util.Map computerFirstResults -> w
+    java.util.Map humanFirstResults -> x
+    java.util.List computerSencodResults -> a
+    java.util.List humanSencodResults -> b
+    java.util.List computer3Alive_4Half -> c
+    java.util.List computer3Alive_2Alive -> d
+    java.util.List computer4HalfAlives -> e
+    java.util.List computerDouble3Alives -> f
+    java.util.List computer3Alives -> g
+    java.util.List computerDouble2Alives -> h
+    java.util.List computer2Alives -> i
+    java.util.List computer3HalfAlives -> j
+    java.util.List human3Alive_4Half -> k
+    java.util.List human3Alive_2Alive -> l
+    java.util.List human4HalfAlives -> m
+    java.util.List humanDouble3Alives -> n
+    java.util.List human3Alives -> o
+    java.util.List humanDouble2Alives -> p
+    java.util.List human2Alives -> q
+    java.util.List human3HalfAlives -> r
+    com.android.base.BaseComputerAI$CalculateRange currentRange -> y
+    com.android.base.BaseComputerAI$FirstAnalysisResult far -> z
+    427:453:com.android.base.BaseComputerAI$FirstAnalysisResult tryAndCountResult(java.util.List,java.util.List,com.android.gobang.Point,int) -> a
+    458:478:void countPoint(java.util.List,java.util.List,com.android.gobang.Point,com.android.base.BaseComputerAI$FirstAnalysisResult,int,boolean) -> a
+    530:562:com.android.gobang.Point pointToNext(com.android.gobang.Point,int,boolean) -> a
+    567:572:boolean isOutSideOfWall(com.android.gobang.Point,int) -> a
+    578:585:void addToFirstAnalysisResult(com.android.base.BaseComputerAI$FirstAnalysisResult,java.util.Map) -> a
+    729:770:com.android.gobang.Point getBestPoint() -> a
+    776:788:com.android.gobang.Point getBestPoint(java.util.List,java.util.List) -> a
+    797:807:void run(java.util.List,com.android.gobang.Point) -> a
+com.android.base.BaseComputerAI$CalculateRange -> com.android.a.b:
+    int xStart -> a
+    int yStart -> b
+    int xStop -> c
+    int yStop -> d
+    com.android.base.BaseComputerAI this$0 -> e
+com.android.base.BaseComputerAI$FirstAnalysisResult -> com.android.a.c:
+    com.android.gobang.Point point -> a
+    int count -> b
+    int direction -> c
+    int aliveState -> d
+    com.android.base.BaseComputerAI this$0 -> e
+    86:86:com.android.base.BaseComputerAI$FirstAnalysisResult access$1(com.android.base.BaseComputerAI$FirstAnalysisResult,com.android.gobang.Point,int,int) -> a
+    94:94:com.android.base.BaseComputerAI$FirstAnalysisResult access$2(com.android.base.BaseComputerAI$FirstAnalysisResult) -> a
+com.android.base.BaseComputerAI$SencondAnalysisResult -> com.android.a.d:
+    com.android.gobang.Point point -> a
+    int alive4 -> b
+    int halfAlive4 -> c
+    int alive3 -> d
+    int halfAlive3 -> e
+    int alive2 -> f
+    com.android.base.BaseComputerAI this$0 -> g
+    112:119:boolean equals(java.lang.Object) -> equals
+    1:1:int compareTo(java.lang.Object) -> compareTo
+com.android.base.BasePlayer -> com.android.a.e:
+    java.util.List points -> s
+    int maxX -> t
+    int maxY -> u
+    java.util.List allFreePoints -> v
+    com.android.gobang.Point temp -> a
+    27:27:java.util.List getMyPoints() -> b
+    32:36:void setChessboard(com.android.interfaces.IChessboard) -> a
+    41:115:boolean hasWin() -> c
+com.android.gobang.AiFactory -> com.android.gobang.a:
+    java.util.Map ais -> a
+    17:25:com.android.interfaces.IPlayer getInstance$412234cc() -> a
+com.android.gobang.Chessboard -> com.android.gobang.Chessboard:
+    int currentMode -> b
+    android.graphics.Paint paint -> c
+    int pointSize -> d
+    android.graphics.Bitmap[] pointArray -> e
+    int maxX -> f
+    int maxY -> g
+    int yOffset -> h
+    int xOffset -> i
+    com.android.interfaces.IPlayer player1 -> a
+    com.android.interfaces.IPlayer player2 -> j
+    com.android.interfaces.IPlayer computer -> k
+    com.android.interfaces.IPlayer human -> l
+    java.util.List allFreePoints -> m
+    java.util.List lines -> n
+    android.content.Context context -> o
+    int whoRun -> p
+    com.android.gobang.Chessboard$RefreshHandler refreshHandler -> q
+    142:152:void receiver(java.lang.String,android.content.Context) -> a
+    156:165:void restart_Gobang() -> a
+    169:185:void onSizeChanged(int,int,int,int) -> onSizeChanged
+    190:196:void fillPointArrays(int,android.graphics.drawable.Drawable) -> a
+    201:210:void createChssboardLines() -> e
+    221:228:void createPoints() -> f
+    277:294:void setMode(int) -> a
+    297:320:void createDialog(java.lang.String) -> a
+    342:347:void onDraw(android.graphics.Canvas) -> onDraw
+    382:383:void drawPoint(android.graphics.Canvas,com.android.gobang.Point,int) -> a
+    394:405:boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    411:417:void playerRun(android.view.MotionEvent) -> a
+    468:481:com.android.gobang.Point newPoint(java.lang.Float,java.lang.Float) -> a
+    522:522:int getMaxX() -> b
+    528:528:int getMaxY() -> c
+    534:534:java.util.List getFreePoints() -> d
+    74:74:com.android.interfaces.IPlayer access$0(com.android.gobang.Chessboard) -> a
+    322:322:void access$1(com.android.gobang.Chessboard) -> b
+    230:230:void access$2(com.android.gobang.Chessboard) -> c
+    248:248:void access$3(com.android.gobang.Chessboard) -> d
+    88:88:android.content.Context access$4(com.android.gobang.Chessboard) -> e
+com.android.gobang.Chessboard$1 -> com.android.gobang.b:
+    com.android.gobang.Chessboard this$0 -> a
+    305:306:void onClick(android.content.DialogInterface,int) -> onClick
+com.android.gobang.Chessboard$2 -> com.android.gobang.c:
+    com.android.gobang.Chessboard this$0 -> a
+    313:315:void onClick(android.content.DialogInterface,int) -> onClick
+com.android.gobang.Chessboard$3 -> com.android.gobang.d:
+    com.android.gobang.Chessboard this$0 -> a
+    331:332:void onClick(android.content.DialogInterface,int) -> onClick
+com.android.gobang.Chessboard$Line -> com.android.gobang.e:
+    float xStart -> a
+    float yStart -> b
+    float xStop -> c
+    float yStop -> d
+    com.android.gobang.Chessboard this$0 -> e
+com.android.gobang.Chessboard$RefreshHandler -> com.android.gobang.f:
+    com.android.gobang.Chessboard this$0 -> a
+    490:493:void computerRunAfter$1349ef() -> a
+    499:516:void handleMessage(android.os.Message) -> handleMessage
+com.android.gobang.GobangActivity -> com.android.gobang.GobangActivity:
+    android.widget.Button btn_ai -> a
+    android.widget.Button btn_pvp -> b
+    android.widget.Button btn_about -> c
+    25:63:void onCreate(android.os.Bundle) -> onCreate
+    68:70:void onDestroy() -> onDestroy
+com.android.gobang.GobangActivity$1 -> com.android.gobang.g:
+    com.android.gobang.GobangActivity this$0 -> a
+    34:38:void onClick(android.view.View) -> onClick
+com.android.gobang.GobangActivity$2 -> com.android.gobang.h:
+    com.android.gobang.GobangActivity this$0 -> a
+    46:49:void onClick(android.view.View) -> onClick
+com.android.gobang.GobangActivity$3 -> com.android.gobang.i:
+    com.android.gobang.GobangActivity this$0 -> a
+    59:60:void onClick(android.view.View) -> onClick
+com.android.gobang.Point -> com.android.gobang.j:
+    int x -> a
+    int y -> b
+    38:38:int hashCode() -> hashCode
+    43:50:boolean equals(java.lang.Object) -> equals
+com.android.gobang.R -> com.android.gobang.R:
+com.android.gobang.R$drawable -> com.android.gobang.R$drawable:
+    int ai_bg -> ai_bg
+    int bg -> bg
+    int black_point -> black_point
+    int chessboard -> chessboard
+    int ic_launcher -> ic_launcher
+    int new_black_point -> new_black_point
+    int new_white_point -> new_white_point
+    int pvp_bg -> pvp_bg
+    int white_point -> white_point
+com.android.gobang.StartActivity -> com.android.gobang.StartActivity:
+    com.android.gobang.Chessboard chessboard -> a
+    android.content.BroadcastReceiver changeItem -> b
+    25:43:void onCreate(android.os.Bundle) -> onCreate
+    48:50:boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    57:60:boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    70:76:void onStart() -> onStart
+    80:84:void onDestroy() -> onDestroy
+    90:118:boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+com.android.gobang.StartActivity$1 -> com.android.gobang.k:
+    com.android.gobang.StartActivity this$0 -> a
+    127:131:void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.android.gobang.StartActivity$2 -> com.android.gobang.l:
+    com.android.gobang.StartActivity this$0 -> a
+    102:103:void onClick(android.content.DialogInterface,int) -> onClick
+com.android.gobang.StartActivity$3 -> com.android.gobang.m:
+    com.android.gobang.StartActivity this$0 -> a
+    110:110:void onClick(android.content.DialogInterface,int) -> onClick
+com.android.interfaces.IChessboard -> com.android.b.a:
+    int getMaxX() -> b
+    int getMaxY() -> c
+    java.util.List getFreePoints() -> d
+com.android.interfaces.IPlayer -> com.android.b.b:
+    void run(java.util.List,com.android.gobang.Point) -> a
+    boolean hasWin() -> c
+    void setChessboard(com.android.interfaces.IChessboard) -> a
+    java.util.List getMyPoints() -> b
+com.android.player.AiTaiNaAI -> com.android.c.a:
+    12:69:com.android.gobang.Point getBestPoint() -> a
+com.android.player.HumanPlayer -> com.android.c.b:
+    19:22:void run(java.util.List,com.android.gobang.Point) -> a
+com.feiwo.appwall.A -> com.feiwo.appwall.A:
+    com.feiwo.appwall.SR a -> a
+    android.content.Intent b -> b
+    android.content.Context c -> c
+    void run() -> run
+com.feiwo.appwall.AppWallManager -> com.feiwo.appwall.AppWallManager:
+    com.feiwo.appwall.AppWallManager a -> a
+    android.content.Context b -> b
+    android.os.Handler c -> c
+    java.lang.String d -> d
+    void init(android.content.Context,java.lang.String) -> init
+    void showAppWall(android.content.Context) -> showAppWall
+    android.content.Context a() -> a
+    com.feiwo.appwall.AppWallManager b() -> b
+com.feiwo.appwall.B -> com.feiwo.appwall.B:
+    int a -> a
+    int b -> b
+com.feiwo.appwall.C -> com.feiwo.appwall.C:
+    java.lang.String a(android.content.Context,java.lang.String,java.lang.String) -> a
+    java.lang.String a(android.content.Context,java.lang.String,java.lang.String,java.lang.String) -> a
+    void b(android.content.Context,java.lang.String,java.lang.String,java.lang.String) -> b
+    void b(android.content.Context,java.lang.String,java.lang.String) -> b
+com.feiwo.appwall.D -> com.feiwo.appwall.D:
+    boolean a(java.lang.String) -> a
+    java.lang.String a(int) -> a
+com.feiwo.appwall.E -> com.feiwo.appwall.E:
+    void onDownloadStart(java.lang.String,java.lang.String,java.lang.String,java.lang.String,long) -> onDownloadStart
+com.feiwo.appwall.F -> com.feiwo.appwall.F:
+    com.feiwo.appwall.WA a -> a
+    void onProgressChanged(android.webkit.WebView,int) -> onProgressChanged
+com.feiwo.appwall.G -> com.feiwo.appwall.G:
+    com.feiwo.appwall.WA a -> a
+    void onPageStarted(android.webkit.WebView,java.lang.String,android.graphics.Bitmap) -> onPageStarted
+    void onReceivedError(android.webkit.WebView,int,java.lang.String,java.lang.String) -> onReceivedError
+com.feiwo.appwall.H -> com.feiwo.appwall.H:
+    com.feiwo.appwall.WA a -> a
+    void run() -> run
+com.feiwo.appwall.I -> com.feiwo.appwall.I:
+    com.feiwo.appwall.WA a -> a
+    java.lang.String b -> b
+    void run() -> run
+com.feiwo.appwall.J -> com.feiwo.appwall.J:
+    com.feiwo.appwall.WA a -> a
+    java.lang.String b -> b
+    int c -> c
+    java.lang.String d -> d
+    void run() -> run
+com.feiwo.appwall.K -> com.feiwo.appwall.K:
+    com.feiwo.appwall.WA a -> a
+    void run() -> run
+com.feiwo.appwall.SR -> com.feiwo.appwall.SR:
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    void a(com.feiwo.appwall.SR,android.content.Context,java.lang.String) -> a
+com.feiwo.appwall.WA -> com.feiwo.appwall.WA:
+    android.widget.TextView c -> c
+    android.webkit.WebView a -> a
+    boolean b -> b
+    java.util.Map d -> d
+    void onCreate(android.os.Bundle) -> onCreate
+    void onRestart() -> onRestart
+    void onBackPressed() -> onBackPressed
+    void a() -> a
+    void debug(java.lang.String) -> debug
+    void back() -> back
+    void openApp(java.lang.String) -> openApp
+    void installApp(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String) -> installApp
+    void downloadApp(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String) -> downloadApp
+    java.lang.String checkInstall(java.lang.String,java.lang.String) -> checkInstall
+    void a(com.feiwo.appwall.WA,java.lang.String) -> a
+com.feiwo.appwall.a -> com.feiwo.appwall.a:
+    int a -> a
+    java.lang.String b -> b
+    java.lang.String c -> c
+    java.lang.String d -> d
+    java.lang.String e -> e
+    org.json.JSONObject a(android.content.Context,java.lang.String,java.lang.String) -> a
+    org.json.JSONObject a(android.content.Context,java.lang.String,java.lang.String,java.lang.String) -> a
+    java.lang.String a() -> a
+    java.lang.String b() -> b
+    java.lang.String c() -> c
+    java.lang.String d() -> d
+    int e() -> e
+com.feiwo.appwall.b -> com.feiwo.appwall.b:
+    java.lang.String a -> a
+    java.lang.String a() -> a
+    java.lang.String b() -> b
+    java.lang.String c() -> c
+com.feiwo.appwall.c -> com.feiwo.appwall.c:
+    void a(boolean,java.lang.String) -> a
+com.feiwo.appwall.d -> com.feiwo.appwall.d:
+    com.feiwo.appwall.AppWallManager a -> a
+    void run() -> run
+com.feiwo.appwall.e -> com.feiwo.appwall.e:
+    char[] a -> a
+    int[] b -> b
+    byte[] c -> c
+    char[] b(byte[],boolean) -> b
+    java.lang.String a(byte[],boolean) -> a
+    byte[] a(java.lang.String) -> a
+com.feiwo.appwall.f -> com.feiwo.appwall.f:
+    com.feiwo.appwall.f a -> a
+    java.lang.String b -> b
+    java.lang.String c -> c
+    java.lang.String d -> d
+    com.feiwo.appwall.f a(android.content.Context) -> a
+    java.lang.String a() -> a
+    java.lang.String b() -> b
+    java.lang.String c() -> c
+    boolean b(android.content.Context) -> b
+com.feiwo.appwall.g -> com.feiwo.appwall.g:
+    com.feiwo.appwall.g a -> a
+    java.util.concurrent.ConcurrentLinkedQueue b -> b
+    java.util.Map c -> c
+    android.content.Context d -> d
+    android.os.Handler e -> e
+    void a(android.content.Context) -> a
+    com.feiwo.appwall.g a() -> a
+    boolean a(java.lang.String) -> a
+    void b() -> b
+    void a(com.feiwo.appwall.a,com.feiwo.appwall.i) -> a
+    void a(com.feiwo.appwall.a) -> a
+    void a(com.feiwo.appwall.g,com.feiwo.appwall.j) -> a
+com.feiwo.appwall.h -> com.feiwo.appwall.h:
+    byte[] b(java.lang.String,java.lang.String) -> b
+    java.lang.String a(java.lang.String,java.lang.String,boolean) -> a
+    byte[] c(java.lang.String,java.lang.String) -> c
+    java.lang.String a(java.lang.String,java.lang.String) -> a
+    java.lang.String a(java.lang.String) -> a
+com.feiwo.appwall.i -> com.feiwo.appwall.i:
+    android.content.Context a -> a
+    java.lang.String b -> b
+    void a(boolean,java.lang.String) -> a
+com.feiwo.appwall.j -> com.feiwo.appwall.j:
+    java.util.Queue a -> a
+    com.feiwo.appwall.a b -> b
+    java.lang.String c -> c
+    long e -> e
+    long f -> f
+    int g -> g
+    long d -> d
+    com.feiwo.appwall.g h -> h
+    void a(com.feiwo.appwall.i) -> a
+    void run() -> run
+    void a(boolean) -> a
+    void a(int) -> a
+    com.feiwo.appwall.g a(com.feiwo.appwall.j) -> a
+com.feiwo.appwall.k -> com.feiwo.appwall.k:
+    com.feiwo.appwall.j a -> a
+    void run() -> run
+com.feiwo.appwall.l -> com.feiwo.appwall.l:
+    com.feiwo.appwall.j a -> a
+    boolean b -> b
+    void run() -> run
+com.feiwo.appwall.m -> com.feiwo.appwall.m:
+    com.feiwo.appwall.j a -> a
+    int b -> b
+    void run() -> run
+com.feiwo.appwall.n -> com.feiwo.appwall.n:
+    com.feiwo.appwall.n a -> a
+    com.feiwo.appwall.n a() -> a
+    boolean b() -> b
+    java.lang.String a(android.content.Context,java.lang.String,java.lang.String) -> a
+com.feiwo.appwall.o -> com.feiwo.appwall.o:
+    com.feiwo.appwall.o a -> a
+    java.util.concurrent.ExecutorService b -> b
+    com.feiwo.appwall.o a() -> a
+    void a(com.feiwo.appwall.q) -> a
+com.feiwo.appwall.p -> com.feiwo.appwall.p:
+    void a(boolean,java.lang.String) -> a
+com.feiwo.appwall.q -> com.feiwo.appwall.q:
+    java.net.URL a -> a
+    com.feiwo.appwall.p b -> b
+    java.lang.String c -> c
+    java.lang.String d -> d
+    android.content.Context e -> e
+    void a(com.feiwo.appwall.p) -> a
+    void a(android.content.Context,java.lang.String,java.lang.String,java.lang.String) -> a
+    void run() -> run
+com.feiwo.appwall.r -> com.feiwo.appwall.r:
+    android.app.NotificationManager a -> a
+    com.feiwo.appwall.r b -> b
+    android.content.Context c -> c
+    com.feiwo.appwall.r a(android.content.Context) -> a
+    void a(int,int,java.lang.String,java.lang.String,java.lang.String,android.content.Intent,int,java.lang.String,long) -> a
+    void a(int) -> a
+    android.widget.ImageView a(android.view.View) -> a
+com.feiwo.appwall.s -> com.feiwo.appwall.s:
+    com.feiwo.appwall.s a -> a
+    com.feiwo.appwall.s a() -> a
+    void a(android.content.Context,java.lang.String) -> a
+    void b(android.content.Context,java.lang.String) -> b
+    boolean c(android.content.Context,java.lang.String) -> c
+com.feiwo.appwall.t -> com.feiwo.appwall.t:
+    com.feiwo.appwall.t a -> a
+    com.feiwo.appwall.t a() -> a
+    java.lang.String a(android.content.Context,boolean) -> a
+com.feiwo.appwall.u -> com.feiwo.appwall.u:
+    java.lang.String a(android.content.Context) -> a
+    java.lang.String a() -> a
+    java.lang.String b() -> b
+    java.lang.String b(android.content.Context) -> b
+    java.lang.String c(android.content.Context) -> c
+    java.lang.String c() -> c
+    java.lang.String d() -> d
+    com.feiwo.appwall.B d(android.content.Context) -> d
+com.feiwo.appwall.v -> com.feiwo.appwall.v:
+    com.feiwo.appwall.v a -> a
+    android.os.Handler b -> b
+    java.util.concurrent.ConcurrentHashMap c -> c
+    java.util.concurrent.ExecutorService d -> d
+    java.util.concurrent.ConcurrentHashMap e -> e
+    void a() -> a
+    com.feiwo.appwall.v b() -> b
+    android.graphics.Bitmap a(android.content.Context,java.lang.String) -> a
+    android.graphics.drawable.Drawable a(android.content.Context,java.lang.String,com.feiwo.appwall.y) -> a
+    java.util.concurrent.ConcurrentHashMap a(com.feiwo.appwall.v) -> a
+    java.util.concurrent.ConcurrentHashMap b(com.feiwo.appwall.v) -> b
+    void a(com.feiwo.appwall.v,android.content.Context,java.lang.String) -> a
+    android.os.Handler c(com.feiwo.appwall.v) -> c
+com.feiwo.appwall.w -> com.feiwo.appwall.w:
+    com.feiwo.appwall.v a -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.feiwo.appwall.x -> com.feiwo.appwall.x:
+    com.feiwo.appwall.v a -> a
+    android.content.Context b -> b
+    java.lang.String c -> c
+    void run() -> run
+com.feiwo.appwall.y -> com.feiwo.appwall.y:
+com.feiwo.appwall.z -> com.feiwo.appwall.z:
+    int a(android.content.Context,float) -> a

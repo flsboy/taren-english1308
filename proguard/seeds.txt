@@ -1,0 +1,296 @@
+com.android.gobang.Chessboard
+com.android.gobang.Chessboard: Chessboard(android.content.Context,android.util.AttributeSet)
+com.android.gobang.GobangActivity
+com.android.gobang.GobangActivity: GobangActivity()
+com.android.gobang.R$drawable
+com.android.gobang.R$drawable: int ai_bg
+com.android.gobang.R$drawable: int bg
+com.android.gobang.R$drawable: int black_point
+com.android.gobang.R$drawable: int chessboard
+com.android.gobang.R$drawable: int ic_launcher
+com.android.gobang.R$drawable: int new_black_point
+com.android.gobang.R$drawable: int new_white_point
+com.android.gobang.R$drawable: int pvp_bg
+com.android.gobang.R$drawable: int white_point
+com.android.gobang.R$drawable: R$drawable()
+com.android.gobang.StartActivity
+com.android.gobang.StartActivity: StartActivity()
+com.feiwo.appwall.A
+com.feiwo.appwall.A: com.feiwo.appwall.SR a
+com.feiwo.appwall.A: android.content.Intent b
+com.feiwo.appwall.A: android.content.Context c
+com.feiwo.appwall.A: A(com.feiwo.appwall.SR,android.content.Intent,android.content.Context)
+com.feiwo.appwall.A: void run()
+com.feiwo.appwall.AppWallManager
+com.feiwo.appwall.AppWallManager: com.feiwo.appwall.AppWallManager a
+com.feiwo.appwall.AppWallManager: android.content.Context b
+com.feiwo.appwall.AppWallManager: android.os.Handler c
+com.feiwo.appwall.AppWallManager: java.lang.String d
+com.feiwo.appwall.AppWallManager: void init(android.content.Context,java.lang.String)
+com.feiwo.appwall.AppWallManager: void showAppWall(android.content.Context)
+com.feiwo.appwall.AppWallManager: AppWallManager(android.content.Context,java.lang.String)
+com.feiwo.appwall.AppWallManager: android.content.Context a()
+com.feiwo.appwall.AppWallManager: com.feiwo.appwall.AppWallManager b()
+com.feiwo.appwall.B
+com.feiwo.appwall.B: int a
+com.feiwo.appwall.B: int b
+com.feiwo.appwall.B: B()
+com.feiwo.appwall.C
+com.feiwo.appwall.C: C()
+com.feiwo.appwall.C: java.lang.String a(android.content.Context,java.lang.String,java.lang.String)
+com.feiwo.appwall.C: java.lang.String a(android.content.Context,java.lang.String,java.lang.String,java.lang.String)
+com.feiwo.appwall.C: void b(android.content.Context,java.lang.String,java.lang.String,java.lang.String)
+com.feiwo.appwall.C: void b(android.content.Context,java.lang.String,java.lang.String)
+com.feiwo.appwall.D
+com.feiwo.appwall.D: D()
+com.feiwo.appwall.D: boolean a(java.lang.String)
+com.feiwo.appwall.D: java.lang.String a(int)
+com.feiwo.appwall.E
+com.feiwo.appwall.E: E(com.feiwo.appwall.WA)
+com.feiwo.appwall.E: void onDownloadStart(java.lang.String,java.lang.String,java.lang.String,java.lang.String,long)
+com.feiwo.appwall.F
+com.feiwo.appwall.F: com.feiwo.appwall.WA a
+com.feiwo.appwall.F: F(com.feiwo.appwall.WA)
+com.feiwo.appwall.F: void onProgressChanged(android.webkit.WebView,int)
+com.feiwo.appwall.G
+com.feiwo.appwall.G: com.feiwo.appwall.WA a
+com.feiwo.appwall.G: G(com.feiwo.appwall.WA)
+com.feiwo.appwall.G: void onPageStarted(android.webkit.WebView,java.lang.String,android.graphics.Bitmap)
+com.feiwo.appwall.G: void onReceivedError(android.webkit.WebView,int,java.lang.String,java.lang.String)
+com.feiwo.appwall.H
+com.feiwo.appwall.H: com.feiwo.appwall.WA a
+com.feiwo.appwall.H: H(com.feiwo.appwall.WA)
+com.feiwo.appwall.H: void run()
+com.feiwo.appwall.I
+com.feiwo.appwall.I: com.feiwo.appwall.WA a
+com.feiwo.appwall.I: java.lang.String b
+com.feiwo.appwall.I: I(com.feiwo.appwall.WA,java.lang.String)
+com.feiwo.appwall.I: void run()
+com.feiwo.appwall.J
+com.feiwo.appwall.J: com.feiwo.appwall.WA a
+com.feiwo.appwall.J: java.lang.String b
+com.feiwo.appwall.J: int c
+com.feiwo.appwall.J: java.lang.String d
+com.feiwo.appwall.J: J(com.feiwo.appwall.WA,java.lang.String,int,java.lang.String)
+com.feiwo.appwall.J: void run()
+com.feiwo.appwall.K
+com.feiwo.appwall.K: com.feiwo.appwall.WA a
+com.feiwo.appwall.K: K(com.feiwo.appwall.WA)
+com.feiwo.appwall.K: void run()
+com.feiwo.appwall.SR
+com.feiwo.appwall.SR: SR()
+com.feiwo.appwall.SR: void onReceive(android.content.Context,android.content.Intent)
+com.feiwo.appwall.SR: void a(com.feiwo.appwall.SR,android.content.Context,java.lang.String)
+com.feiwo.appwall.WA
+com.feiwo.appwall.WA: android.widget.TextView c
+com.feiwo.appwall.WA: android.webkit.WebView a
+com.feiwo.appwall.WA: boolean b
+com.feiwo.appwall.WA: java.util.Map d
+com.feiwo.appwall.WA: WA()
+com.feiwo.appwall.WA: void onCreate(android.os.Bundle)
+com.feiwo.appwall.WA: void onRestart()
+com.feiwo.appwall.WA: void onBackPressed()
+com.feiwo.appwall.WA: void a()
+com.feiwo.appwall.WA: void debug(java.lang.String)
+com.feiwo.appwall.WA: void back()
+com.feiwo.appwall.WA: void openApp(java.lang.String)
+com.feiwo.appwall.WA: void installApp(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+com.feiwo.appwall.WA: void downloadApp(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+com.feiwo.appwall.WA: java.lang.String checkInstall(java.lang.String,java.lang.String)
+com.feiwo.appwall.WA: void a(com.feiwo.appwall.WA,java.lang.String)
+com.feiwo.appwall.a
+com.feiwo.appwall.a: int a
+com.feiwo.appwall.a: java.lang.String b
+com.feiwo.appwall.a: java.lang.String c
+com.feiwo.appwall.a: java.lang.String d
+com.feiwo.appwall.a: java.lang.String e
+com.feiwo.appwall.a: a()
+com.feiwo.appwall.a: org.json.JSONObject a(android.content.Context,java.lang.String,java.lang.String)
+com.feiwo.appwall.a: org.json.JSONObject a(android.content.Context,java.lang.String,java.lang.String,java.lang.String)
+com.feiwo.appwall.a: a(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+com.feiwo.appwall.a: java.lang.String a()
+com.feiwo.appwall.a: java.lang.String b()
+com.feiwo.appwall.a: java.lang.String c()
+com.feiwo.appwall.a: java.lang.String d()
+com.feiwo.appwall.a: int e()
+com.feiwo.appwall.b
+com.feiwo.appwall.b: java.lang.String a
+com.feiwo.appwall.b: void <clinit>()
+com.feiwo.appwall.b: b()
+com.feiwo.appwall.b: java.lang.String a()
+com.feiwo.appwall.b: java.lang.String b()
+com.feiwo.appwall.b: java.lang.String c()
+com.feiwo.appwall.c
+com.feiwo.appwall.c: c()
+com.feiwo.appwall.c: void a(boolean,java.lang.String)
+com.feiwo.appwall.d
+com.feiwo.appwall.d: com.feiwo.appwall.AppWallManager a
+com.feiwo.appwall.d: d(com.feiwo.appwall.AppWallManager)
+com.feiwo.appwall.d: void run()
+com.feiwo.appwall.e
+com.feiwo.appwall.e: char[] a
+com.feiwo.appwall.e: int[] b
+com.feiwo.appwall.e: byte[] c
+com.feiwo.appwall.e: void <clinit>()
+com.feiwo.appwall.e: e()
+com.feiwo.appwall.e: char[] b(byte[],boolean)
+com.feiwo.appwall.e: java.lang.String a(byte[],boolean)
+com.feiwo.appwall.e: byte[] a(java.lang.String)
+com.feiwo.appwall.f
+com.feiwo.appwall.f: com.feiwo.appwall.f a
+com.feiwo.appwall.f: java.lang.String b
+com.feiwo.appwall.f: java.lang.String c
+com.feiwo.appwall.f: java.lang.String d
+com.feiwo.appwall.f: f(android.content.Context)
+com.feiwo.appwall.f: com.feiwo.appwall.f a(android.content.Context)
+com.feiwo.appwall.f: java.lang.String a()
+com.feiwo.appwall.f: java.lang.String b()
+com.feiwo.appwall.f: java.lang.String c()
+com.feiwo.appwall.f: f()
+com.feiwo.appwall.f: boolean b(android.content.Context)
+com.feiwo.appwall.g
+com.feiwo.appwall.g: com.feiwo.appwall.g a
+com.feiwo.appwall.g: java.util.concurrent.ConcurrentLinkedQueue b
+com.feiwo.appwall.g: java.util.Map c
+com.feiwo.appwall.g: android.content.Context d
+com.feiwo.appwall.g: android.os.Handler e
+com.feiwo.appwall.g: g()
+com.feiwo.appwall.g: void a(android.content.Context)
+com.feiwo.appwall.g: com.feiwo.appwall.g a()
+com.feiwo.appwall.g: g(android.content.Context)
+com.feiwo.appwall.g: boolean a(java.lang.String)
+com.feiwo.appwall.g: void b()
+com.feiwo.appwall.g: void a(com.feiwo.appwall.a,com.feiwo.appwall.i)
+com.feiwo.appwall.g: void a(com.feiwo.appwall.a)
+com.feiwo.appwall.g: void a(com.feiwo.appwall.g,com.feiwo.appwall.j)
+com.feiwo.appwall.h
+com.feiwo.appwall.h: void <clinit>()
+com.feiwo.appwall.h: h()
+com.feiwo.appwall.h: byte[] b(java.lang.String,java.lang.String)
+com.feiwo.appwall.h: java.lang.String a(java.lang.String,java.lang.String,boolean)
+com.feiwo.appwall.h: byte[] c(java.lang.String,java.lang.String)
+com.feiwo.appwall.h: java.lang.String a(java.lang.String,java.lang.String)
+com.feiwo.appwall.h: java.lang.String a(java.lang.String)
+com.feiwo.appwall.i
+com.feiwo.appwall.i: android.content.Context a
+com.feiwo.appwall.i: java.lang.String b
+com.feiwo.appwall.i: i()
+com.feiwo.appwall.i: i(com.feiwo.appwall.SR,android.content.Context,java.lang.String)
+com.feiwo.appwall.i: void a(boolean,java.lang.String)
+com.feiwo.appwall.j
+com.feiwo.appwall.j: java.util.Queue a
+com.feiwo.appwall.j: com.feiwo.appwall.a b
+com.feiwo.appwall.j: java.lang.String c
+com.feiwo.appwall.j: long e
+com.feiwo.appwall.j: long f
+com.feiwo.appwall.j: int g
+com.feiwo.appwall.j: long d
+com.feiwo.appwall.j: com.feiwo.appwall.g h
+com.feiwo.appwall.j: j(com.feiwo.appwall.g,com.feiwo.appwall.a,com.feiwo.appwall.i)
+com.feiwo.appwall.j: void a(com.feiwo.appwall.i)
+com.feiwo.appwall.j: void run()
+com.feiwo.appwall.j: void a(boolean)
+com.feiwo.appwall.j: void a(int)
+com.feiwo.appwall.j: com.feiwo.appwall.g a(com.feiwo.appwall.j)
+com.feiwo.appwall.k
+com.feiwo.appwall.k: com.feiwo.appwall.j a
+com.feiwo.appwall.k: k(com.feiwo.appwall.j)
+com.feiwo.appwall.k: void run()
+com.feiwo.appwall.l
+com.feiwo.appwall.l: com.feiwo.appwall.j a
+com.feiwo.appwall.l: boolean b
+com.feiwo.appwall.l: l(com.feiwo.appwall.j,boolean)
+com.feiwo.appwall.l: void run()
+com.feiwo.appwall.m
+com.feiwo.appwall.m: com.feiwo.appwall.j a
+com.feiwo.appwall.m: int b
+com.feiwo.appwall.m: m(com.feiwo.appwall.j,int)
+com.feiwo.appwall.m: void run()
+com.feiwo.appwall.n
+com.feiwo.appwall.n: com.feiwo.appwall.n a
+com.feiwo.appwall.n: n()
+com.feiwo.appwall.n: com.feiwo.appwall.n a()
+com.feiwo.appwall.n: boolean b()
+com.feiwo.appwall.n: java.lang.String a(android.content.Context,java.lang.String,java.lang.String)
+com.feiwo.appwall.o
+com.feiwo.appwall.o: com.feiwo.appwall.o a
+com.feiwo.appwall.o: java.util.concurrent.ExecutorService b
+com.feiwo.appwall.o: void <clinit>()
+com.feiwo.appwall.o: o()
+com.feiwo.appwall.o: com.feiwo.appwall.o a()
+com.feiwo.appwall.o: void a(com.feiwo.appwall.q)
+com.feiwo.appwall.p
+com.feiwo.appwall.p: void a(boolean,java.lang.String)
+com.feiwo.appwall.q
+com.feiwo.appwall.q: java.net.URL a
+com.feiwo.appwall.q: com.feiwo.appwall.p b
+com.feiwo.appwall.q: java.lang.String c
+com.feiwo.appwall.q: java.lang.String d
+com.feiwo.appwall.q: android.content.Context e
+com.feiwo.appwall.q: q()
+com.feiwo.appwall.q: void a(com.feiwo.appwall.p)
+com.feiwo.appwall.q: void a(android.content.Context,java.lang.String,java.lang.String,java.lang.String)
+com.feiwo.appwall.q: void run()
+com.feiwo.appwall.r
+com.feiwo.appwall.r: android.app.NotificationManager a
+com.feiwo.appwall.r: com.feiwo.appwall.r b
+com.feiwo.appwall.r: android.content.Context c
+com.feiwo.appwall.r: void <clinit>()
+com.feiwo.appwall.r: r(android.content.Context)
+com.feiwo.appwall.r: com.feiwo.appwall.r a(android.content.Context)
+com.feiwo.appwall.r: void a(int,int,java.lang.String,java.lang.String,java.lang.String,android.content.Intent,int,java.lang.String,long)
+com.feiwo.appwall.r: void a(int)
+com.feiwo.appwall.r: android.widget.ImageView a(android.view.View)
+com.feiwo.appwall.s
+com.feiwo.appwall.s: com.feiwo.appwall.s a
+com.feiwo.appwall.s: void <clinit>()
+com.feiwo.appwall.s: s()
+com.feiwo.appwall.s: com.feiwo.appwall.s a()
+com.feiwo.appwall.s: void a(android.content.Context,java.lang.String)
+com.feiwo.appwall.s: void b(android.content.Context,java.lang.String)
+com.feiwo.appwall.s: boolean c(android.content.Context,java.lang.String)
+com.feiwo.appwall.t
+com.feiwo.appwall.t: com.feiwo.appwall.t a
+com.feiwo.appwall.t: com.feiwo.appwall.t a()
+com.feiwo.appwall.t: t()
+com.feiwo.appwall.t: java.lang.String a(android.content.Context,boolean)
+com.feiwo.appwall.u
+com.feiwo.appwall.u: u()
+com.feiwo.appwall.u: java.lang.String a(android.content.Context)
+com.feiwo.appwall.u: java.lang.String a()
+com.feiwo.appwall.u: java.lang.String b()
+com.feiwo.appwall.u: java.lang.String b(android.content.Context)
+com.feiwo.appwall.u: java.lang.String c(android.content.Context)
+com.feiwo.appwall.u: java.lang.String c()
+com.feiwo.appwall.u: java.lang.String d()
+com.feiwo.appwall.u: com.feiwo.appwall.B d(android.content.Context)
+com.feiwo.appwall.v
+com.feiwo.appwall.v: com.feiwo.appwall.v a
+com.feiwo.appwall.v: android.os.Handler b
+com.feiwo.appwall.v: java.util.concurrent.ConcurrentHashMap c
+com.feiwo.appwall.v: java.util.concurrent.ExecutorService d
+com.feiwo.appwall.v: java.util.concurrent.ConcurrentHashMap e
+com.feiwo.appwall.v: void <clinit>()
+com.feiwo.appwall.v: v()
+com.feiwo.appwall.v: void a()
+com.feiwo.appwall.v: com.feiwo.appwall.v b()
+com.feiwo.appwall.v: android.graphics.Bitmap a(android.content.Context,java.lang.String)
+com.feiwo.appwall.v: android.graphics.drawable.Drawable a(android.content.Context,java.lang.String,com.feiwo.appwall.y)
+com.feiwo.appwall.v: java.util.concurrent.ConcurrentHashMap a(com.feiwo.appwall.v)
+com.feiwo.appwall.v: java.util.concurrent.ConcurrentHashMap b(com.feiwo.appwall.v)
+com.feiwo.appwall.v: void a(com.feiwo.appwall.v,android.content.Context,java.lang.String)
+com.feiwo.appwall.v: android.os.Handler c(com.feiwo.appwall.v)
+com.feiwo.appwall.w
+com.feiwo.appwall.w: com.feiwo.appwall.v a
+com.feiwo.appwall.w: w(com.feiwo.appwall.v)
+com.feiwo.appwall.w: void handleMessage(android.os.Message)
+com.feiwo.appwall.x
+com.feiwo.appwall.x: com.feiwo.appwall.v a
+com.feiwo.appwall.x: android.content.Context b
+com.feiwo.appwall.x: java.lang.String c
+com.feiwo.appwall.x: x(com.feiwo.appwall.v,android.content.Context,java.lang.String)
+com.feiwo.appwall.x: void run()
+com.feiwo.appwall.y
+com.feiwo.appwall.z
+com.feiwo.appwall.z: z()
+com.feiwo.appwall.z: int a(android.content.Context,float)

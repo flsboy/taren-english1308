@@ -1,0 +1,33 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+com.android.base.BaseComputerAI:
+    private static final int HENG
+    private static final int ZHONG
+    private static final int ZHENG_XIE
+    private static final int FAN_XIE
+    private static final boolean FORWARD
+    private static final boolean BACKWARD
+    private static final int ALIVE
+    private static final int HALF_ALIVE
+    private static final int RANGE_STEP
+com.android.gobang.AiFactory:
+    11:11:public AiFactory()
+com.android.gobang.BuildConfig
+com.android.gobang.Chessboard:
+    private static final int READY
+    private static final int RUNNING
+    private static final int PLAYER_TWO_LOST
+    private static final int PLAYER_ONE_LOST
+    private static final int BLACK
+    private static final int NEW_BLACK
+    private static final int WHITE
+    private static final int NEW_WHITE
+    private static final java.lang.String GAME_OVER
+com.android.gobang.R:
+    10:10:public R()
+com.android.gobang.R$attr
+com.android.gobang.R$id
+com.android.gobang.R$layout
+com.android.gobang.R$string
+com.android.gobang.StartActivity:
+    private static final java.lang.String GAME_OVER

@@ -1,0 +1,18 @@
+# view AndroidManifest.xml #generated:25
+-keep class com.android.gobang.AboutActivity { <init>(...); }
+
+# view res/layout/start.xml #generated:8
+-keep class com.android.gobang.Chessboard { <init>(...); }
+
+# view AndroidManifest.xml #generated:12
+-keep class com.android.gobang.GobangActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:22
+-keep class com.android.gobang.StartActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:32
+-keep class com.feiwo.appwall.SR { <init>(...); }
+
+# view AndroidManifest.xml #generated:28
+-keep class com.feiwo.appwall.WA { <init>(...); }
+

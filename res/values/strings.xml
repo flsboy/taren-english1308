@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  
+    <string name="app_name">五子棋</string>
+    <string name="ai">头 脑 风 暴</string>
+    <string name="pvp">双 人 对 战</string>
+     <string name="about">更 多 精 彩</string>
+
+</resources>
